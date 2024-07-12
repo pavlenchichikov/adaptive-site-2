@@ -130,12 +130,11 @@ color:#9F9F9F;
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .hero {
-        flex-direction: column;
-    }
+@media (min-width: 769px) and (max-width: 1024px) {
+    
     .hero-logo{
-        flex-direction: column;
+        width: 100%;
+
     }
     .hero-image, .hero-text {
         width: 100%;
@@ -158,8 +157,12 @@ color:#9F9F9F;
 }
 
 @media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
+    .hero-logo{
+        width: 100%;
+
+    }
+    .hero-image, .hero-text {
+        width: 100%;
     }
     .categories {
         flex-direction: column;
